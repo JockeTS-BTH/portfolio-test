@@ -20,13 +20,16 @@ html, body {
 /* Placement */
 
 body {
-    background-color: red;
+    max-width: 800px;
+    margin: auto;
     display: flex;
     flex-direction: column;
 }
 
 .main {
+    background-color: rgb(213, 195, 232);
     flex: 1 0 auto;
+    padding: 1em;
 }
 
 .header, .footer {
@@ -69,9 +72,12 @@ body {
 /* Footer */
 
 .footer {
+    background-color: rgb(179, 172, 172);
     display: flex;
     justify-content: space-between;
     border-top: 1px solid #222;
+    padding: 1em;
+    color: #faf1f1;
 }
 
 .footer a {
@@ -144,4 +150,12 @@ blockquote {
     margin-left: 1em;
     padding-left: 1em;
     border-left: 0.5em solid #f5f5f5;
+}
+
+.profile-picture {
+    max-width: 200px;
+}
+
+#nav {
+    background-color: rgb(180, 220, 178);
 }

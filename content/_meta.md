@@ -1,8 +1,8 @@
 ---
-Logo: image/leaf_256x256.png
-Tagline: My portfolio.
+Logo: image/pineapple_256x256.png
+Tagline: Portföljsida
 Social:
     - title: Link till sidans github repo.
-      url: https://github.com/dbwebb-se/design-v3
-      icon: github
+      url: https://github.com/JockeTS-BTH/portfolio-test
+      icon: github-alt
 ---
