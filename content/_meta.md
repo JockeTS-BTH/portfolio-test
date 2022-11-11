@@ -1,8 +1,8 @@
 ---
 Logo: image/pineapple_256x256.png
-Tagline: Portföljsida
+Tagline: Portfolio
 Social:
     - title: Link till sidans github repo.
       url: https://github.com/JockeTS-BTH/portfolio-test
-      icon: github-alt
+      icon: fab fa-github fa-2x
 ---

@@ -1,15 +1,16 @@
 ---
 Title: Home
 Description: This is our index page.
-icon: fa fa-home
+icon: fas fa-home
 ---
 
-# Om Mig
+# Welcome!
 
-![profile picture](image/jocke.jpeg "Jocke"){.profile-picture}
+...to my humble portfolio website.
 
-Hej! Mitt namn är Jocke och jag studerar på BTH där jag läser Webbprogrammering 120 hp (distans).
-
-Jag har sysslat lite med programmering på fritiden tidigare men nu vill jag ta nästa steg och skaffa en högskoleutbildning i ämnet och förhoppningsvis få ett intressant jobb i branschen.
+Feel free to:
+- Check out my projects
+- Get to know me
+- Contact me
 
 
