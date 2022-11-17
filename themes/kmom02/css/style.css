@@ -6149,6 +6149,93 @@ pre code {
   line-height: 1.4;
 }
 
+.techs-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 1em;
+  margin: 0.5em;
+}
+.techs-container h1 {
+  grid-column: span 3;
+  justify-self: center;
+  margin: 0;
+}
+
+.techs-box {
+  background-color: #e9d6aa;
+  border-radius: 4px;
+  padding: 1em 0;
+  text-align: center;
+}
+.techs-box a:hover {
+  color: rgb(115, 87, 141);
+}
+
+.html,
+.php,
+.sqlite {
+  grid-column: span 1;
+}
+
+.css,
+.javascript,
+.python {
+  grid-column: span 2;
+}
+
+.git {
+  grid-column: span 3;
+}
+
+@media only screen and (max-width: 600px) {
+  .techs-container {
+    grid-template-columns: auto;
+  }
+  .techs-container h1 {
+    grid-column: span 1;
+  }
+  .techs-box {
+    grid-column: span 1;
+  }
+}
+.tech-container {
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 1em 1.5em;
+  margin: 0.5em;
+}
+
+.tech-nav {
+  grid-column: span 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.tech-nav a {
+  background-color: #e9d6aa;
+  border-radius: 4px;
+  margin: 0.25em 0;
+  padding: 0.5em;
+  text-align: center;
+}
+.tech-nav a:hover {
+  background-color: rgb(233, 229, 229);
+  box-shadow: 4px 4px 8px;
+}
+
+.tech-content {
+  grid-column: span 1;
+  overflow-x: auto;
+}
+
+@media only screen and (max-width: 600px) {
+  .tech-container {
+    grid-template-columns: auto;
+  }
+  .tech-nav {
+    display: none;
+  }
+}
 /* General */
 * {
   color: #000;
@@ -6167,12 +6254,17 @@ body {
 }
 
 body > * {
-  border-right: 1px solid black;
-  border-left: 1px solid black;
+  border-right: 1px solid #000;
+  border-left: 1px solid #000;
   padding: 0.25em 0.5em;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   margin: 1rem 0;
   font-family: "Open Sans", sans-serif;
 }
@@ -6190,14 +6282,15 @@ p {
 .header img {
   max-width: 100px;
 }
-.header .nav a, .header i {
+.header .nav a,
+.header i {
   color: #fff;
 }
 
 .main {
   background-color: rgb(176, 172, 172);
-  border-top: 1px solid black;
-  border-bottom: 1px solid black;
+  border-top: 1px solid #000;
+  border-bottom: 1px solid #000;
 }
 .main .profile-picture {
   max-width: 200px;
@@ -6207,7 +6300,8 @@ p {
   background-color: rgb(115, 87, 141);
   text-align: center;
 }
-.footer p, .footer i {
+.footer p,
+.footer i {
   color: #fff;
   margin-bottom: 0.5rem;
 }

@@ -1,0 +1,41 @@
+.tech-container {
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 1em 1.5em;
+    margin: 0.5em;
+}
+
+.tech-nav {
+    grid-column: span 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+
+    a {
+        background-color: $accent-color;
+        border-radius: 4px;
+        margin: 0.25em 0;
+        padding: 0.5em;
+        text-align: center;
+    }
+
+    a:hover {
+        background-color: rgb(233, 229, 229);
+        box-shadow: 4px 4px 8px;
+    }
+}
+
+.tech-content {
+    grid-column: span 1;
+    overflow-x: auto;
+}
+
+@media only screen and (max-width: 600px) {
+    .tech-container {
+        grid-template-columns: auto;
+    }
+    
+    .tech-nav {
+        display: none;
+    }
+}
