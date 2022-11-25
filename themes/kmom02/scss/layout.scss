@@ -1,0 +1,34 @@
+.header {
+    background-color: $background-color;
+    text-align: center;
+
+    img {
+        max-width: 100px;
+    }
+
+    .nav a,
+    i {
+        color: $accent-color;
+    }
+}
+
+.main {
+    background-color: $background-alternative-color;
+    border-top: 1px solid #000;
+    border-bottom: 1px solid #000;
+
+    .profile-picture {
+        max-width: 200px;
+    }
+}
+
+.footer {
+    background-color: $background-color;
+    text-align: center;
+
+    p,
+    i {
+        color: $font-alternative-color;
+        margin-bottom: 0.5rem;
+    }
+}

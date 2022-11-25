@@ -6115,12 +6115,12 @@ readers do not read off random characters that represent icons */
 }
 
 * {
-  color: #212427;
+  color: #dcd7c9;
   font-family: "Roboto", sans-serif;
 }
 
 html {
-  background-color: #fcfcfc;
+  background-color: #202945;
   font-size: 100%;
 }
 
@@ -6154,11 +6154,11 @@ p {
 .title a,
 .title h1,
 .title p {
-  color: #aba546;
+  color: #dcd7c9;
 }
 
 .header {
-  background-color: #561d5e;
+  background-color: #2c3639;
   text-align: center;
 }
 .header img {
@@ -6166,11 +6166,11 @@ p {
 }
 .header .nav a,
 .header i {
-  color: #24ab3a;
+  color: #a27b5c;
 }
 
 .main {
-  background-color: #d3d3d3;
+  background-color: #3f4e4f;
   border-top: 1px solid #000;
   border-bottom: 1px solid #000;
 }
@@ -6179,12 +6179,12 @@ p {
 }
 
 .footer {
-  background-color: #561d5e;
+  background-color: #2c3639;
   text-align: center;
 }
 .footer p,
 .footer i {
-  color: #aba546;
+  color: #dcd7c9;
   margin-bottom: 0.5rem;
 }
 
@@ -6253,13 +6253,13 @@ pre code {
 }
 
 .techs-box {
-  background-color: #24ab3a;
+  background-color: #a27b5c;
   border-radius: 4px;
   padding: 1em 0;
   text-align: center;
 }
 .techs-box a:hover {
-  color: #561d5e;
+  color: #2c3639;
 }
 
 .html,
@@ -6303,7 +6303,7 @@ pre code {
   justify-content: flex-start;
 }
 .tech-nav a {
-  background-color: #24ab3a;
+  background-color: #a27b5c;
   border-radius: 4px;
   margin: 0.25em 0;
   padding: 0.5em;

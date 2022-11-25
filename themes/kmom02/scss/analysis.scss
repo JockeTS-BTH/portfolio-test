@@ -1,0 +1,18 @@
+.color-palette {
+    border-spacing: 4px;
+    border-collapse: separate;
+
+    td {
+        text-align: center;
+    }
+
+    .color {
+        width: 75px;
+        height: 75px;
+    }
+}
+
+.reference {
+    display: block;
+    color: #00e;
+}
