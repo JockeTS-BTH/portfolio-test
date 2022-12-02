@@ -35,6 +35,13 @@ p {
     margin: 1rem 0;
 }
 
+img,
+embed,
+object,
+video {
+    max-width: 100%;
+}
+
 .title {
     a,
     h1,

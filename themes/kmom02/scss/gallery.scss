@@ -1,0 +1,42 @@
+.gallery-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 0.5em;
+    margin-bottom: 1em;
+}
+
+.gallery-image {
+    border: 4px solid #111;
+    background-color: #111;
+    grid-column: span 1;
+}
+
+.gallery-image img {
+    display: block;
+}
+
+@media only screen and (max-width: 600px) {
+    .gallery-container {
+        grid-template-columns: auto;
+    }
+}
+
+.embed-container {
+    border: 1px solid 111;
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+    overflow: hidden;
+    max-width: 100%;
+    margin-bottom: 1em;
+}
+
+.embed-container iframe,
+.embed-container object,
+.embed-container embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
