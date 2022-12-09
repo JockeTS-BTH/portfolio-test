@@ -1,8 +1,7 @@
 ---
-Title: Technologies
+Title: Tech
 Description: This is our technologies page.
 Template: technologies
-icon: fas fa-signal
 ---
 
 # Technologies

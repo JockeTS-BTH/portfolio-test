@@ -6127,13 +6127,12 @@ html {
 body {
   max-width: 800px;
   margin: auto;
-  line-height: 1.4;
 }
 
 body > * {
   border-right: 1px solid #000;
   border-left: 1px solid #000;
-  padding: 0.25em 0.5em;
+  padding: 0.1em 1em;
 }
 
 h1,
@@ -6142,13 +6141,13 @@ h3,
 h4,
 h5,
 h6 {
-  margin: 1rem 0;
   font-family: "Open Sans", sans-serif;
+  margin: 0.5em 0;
 }
 
 p {
-  font-size: 1.1em;
-  margin: 1rem 0;
+  font-size: 1.1rem;
+  line-height: 1.4;
 }
 
 img,
@@ -6158,12 +6157,6 @@ video {
   max-width: 100%;
 }
 
-.title a,
-.title h1,
-.title p {
-  color: #aba546;
-}
-
 .header {
   background-color: #561d5e;
   text-align: center;
@@ -6171,14 +6164,23 @@ video {
 .header img {
   max-width: 100px;
 }
-.header .nav a,
-.header i {
+
+.title a,
+.title h1,
+.title p {
+  color: #aba546;
+}
+
+.nav a {
   color: #63b671;
+}
+.nav a:hover {
+  color: #fcfcfc;
 }
 
 .main {
   background-color: #d3d3d3;
-  border-top: 1px solid #000;
+  border-top: 8px solid #000;
   border-bottom: 1px solid #000;
 }
 .main .profile-picture {
@@ -6187,12 +6189,20 @@ video {
 
 .footer {
   background-color: #561d5e;
-  text-align: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.54rem;
 }
 .footer p,
+.footer a,
 .footer i {
   color: #aba546;
-  margin-bottom: 0.5rem;
+}
+.footer a {
+  font-size: 2rem;
+  text-decoration: none;
 }
 
 blockquote {

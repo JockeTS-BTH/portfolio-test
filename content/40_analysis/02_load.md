@@ -1,5 +1,5 @@
 ---
-Title: Colors
+Title: Load
 Description: This is our load page.
 ---
 

@@ -1,16 +1,11 @@
 ---
 Title: Home
 Description: This is our index page.
-icon: fas fa-home
 ---
 
-# Welcome!
+# Välkommen!
 
-...to my humble portfolio website.
+...till min blygsamma portfölj.
 
-Feel free to:
-- Check out my projects
-- Get to know me
-- Contact me
 
 

@@ -6,3 +6,7 @@ $font-color: #dcd7c9;
 $font-alternative-color: #dcd7c9;
 
 $accent-color: #af9c8e;
+
+$base-line-height: 1.4;
+$base-font-size: 1.1rem;
+$magic-number: $base-line-height * $base-font-size;

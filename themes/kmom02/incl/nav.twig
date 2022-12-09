@@ -5,7 +5,7 @@
         {% if pages["_meta"].meta.logo %}
             <div class="logo">
                 <a href="{{ base_url }}">
-                    <img src="{{ base_url }}/{{ pages["_meta"].meta.logo|url }}" alt="" />
+                    <img src="{{ base_url }}/{{ pages["_meta"].meta.logo|url }}" alt="site logo" />
                 </a>
             </div>
         {% endif %}
@@ -19,13 +19,13 @@
         </div>
 
         <!-- Hamburger Menu? -->
-        <a class="nav-toggle" id="nav-toggle" title="Toggle Menu" role="button" aria-controls="nav" aria-expanded="false"
-            tabindex="1">
+        <a class="nav-toggle" id="nav-toggle" title="Toggle Menu" role="button" aria-controls="nav" aria-expanded="false">
             <i class="fa fa-bars" aria-hidden="true" id="toggler"></i>
             <span class="sr-only">Toggle Menu</span>
         </a>
     </div>
 
+    <!-- Navigation -->
     <div class="nav">
         <div id="nav" role="navigation" tabindex="-1">
             <ul>

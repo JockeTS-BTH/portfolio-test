@@ -5,16 +5,29 @@
     img {
         max-width: 100px;
     }
+}
 
-    .nav a,
-    i {
+.title {
+    a,
+    h1,
+    p {
+        color: $font-alternative-color;
+    }
+}
+
+.nav {
+    a {
         color: $accent-color;
+    }
+
+    a:hover {
+        color: $background-html-color;
     }
 }
 
 .main {
     background-color: $background-alternative-color;
-    border-top: 1px solid #000;
+    border-top: 8px solid #000;
     border-bottom: 1px solid #000;
 
     .profile-picture {
@@ -24,11 +37,20 @@
 
 .footer {
     background-color: $background-color;
-    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: $magic-number;
 
     p,
+    a,
     i {
         color: $font-alternative-color;
-        margin-bottom: 0.5rem;
+    }
+
+    a {
+        font-size: 2rem;
+        text-decoration: none;
     }
 }

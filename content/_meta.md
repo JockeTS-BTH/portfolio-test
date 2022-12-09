@@ -4,7 +4,7 @@ Tagline: Portfolio
 Social:
     - title: Link till sidans github repo.
       url: https://github.com/JockeTS-BTH/portfolio-test
-      icon: fab fa-github fa-2x
+      icon: fab fa-github
     - title: Dark Mode
       url: ?action=theme
       icon: fas fa-moon

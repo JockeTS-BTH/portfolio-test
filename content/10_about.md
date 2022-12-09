@@ -1,7 +1,6 @@
 ---
 Title: About
 Description: This is our about page.
-icon: fas fa-user
 ---
 
 # About
